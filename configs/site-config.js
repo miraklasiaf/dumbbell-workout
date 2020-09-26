@@ -1,12 +1,7 @@
-const baseUrl = 'https://github.com/miraklasiaf/grammarkup'
+const baseUrl = 'https://github.com/miraklasiaf/dumbbell-workout'
 
 const siteConfig = {
   copyright: `Copyright © ${new Date().getFullYear()} Faisal Karim. All Rights Reserved.`,
-  algolia: {
-    apiKey: 'df1dcc41f7b8e5d68e73dd56d1e19701',
-    indexName: 'chakra-ui',
-    inputSelector: '#algolia-search'
-  },
   author: {
     name: 'Faisal Karim',
     github: 'https://github.com/miraklasiaf',
@@ -26,8 +21,8 @@ const siteConfig = {
     url: 'https://discord.gg/dQHfcWF'
   },
   seo: {
-    title: 'Grammarkup',
-    titleTemplate: '%s - Grammarkup',
+    title: 'Dumbbell Workout',
+    titleTemplate: '%s - Dumbbell Workout',
     description: 'Web for learning grammar',
     siteUrl: 'https://chakra-ui.com',
     twitter: {
@@ -39,21 +34,21 @@ const siteConfig = {
       type: 'website',
       locale: 'en_US',
       url: 'https://chakra-ui.com',
-      title: 'Grammarkup',
+      title: 'Dumbbell Workout',
       description: 'Web for learning grammar',
-      site_name: 'Grammarkup: Web for learning grammar',
+      site_name: 'Dumbbell Workout: Web for learning grammar',
       images: [
         {
           url: '/og-image.png',
           width: 1240,
           height: 480,
-          alt: 'Grammarkup: Web for learning grammar'
+          alt: 'Dumbbell Workout: Web for learning grammar'
         },
         {
           url: '/twitter-og-image.png',
           width: 1012,
           height: 506,
-          alt: 'Grammarkup: Web for learning grammar'
+          alt: 'Dumbbell Workout: Web for learning grammar'
         }
       ]
     }

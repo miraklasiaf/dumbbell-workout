@@ -1,78 +1,121 @@
-import NextLink from 'next/link'
-import { Box, Heading, Text, Button, Divider, Stack } from '@chakra-ui/core'
+import {
+  Heading,
+  Flex,
+  Stack,
+  Box,
+  Text,
+  Button,
+  Tab,
+  Tabs,
+  TabList,
+  TabPanels,
+  TabPanel
+} from '@chakra-ui/core'
 import Container from '@/components/container'
-import Header from '@/components/header'
-import { Footer } from '@/components/footer'
-import SEO from '@/components/seo'
+import VideoCard from '@/components/video-card'
+import { workoutData } from '@/data/workout'
 
-import { FaArrowRight } from 'react-icons/fa'
-import { DiGithubBadge } from 'react-icons/di'
+const HeroSection = () => (
+  <Flex justify="center" direction="column" bg="#FBFBFB">
+    <Container>
+      <Stack
+        as="section"
+        spacing={8}
+        justifyContent="center"
+        alignItems="flex-start"
+        m={['0 auto', null, '0 auto 4rem auto']}
+        maxWidth="3xl"
+        p={8}
+      >
+        <Flex direction="column" justify="flex-start" align="flex-start" maxW="3xl">
+          <Heading letterSpacing="tight" mb={4} as="h1" size="2xl" fontWeight="bold">
+            5 Day Dumbbell Workout Split
+          </Heading>
+          <Text color="gray.700" mb={4} fontSize="lg">
+            This 5 day dumbbell workout program only requires dumbbells and is perfect for
+            those looking to build lean muscle mass at home or on the go!
+          </Text>
+          <Button
+            as="a"
+            href="#workout-overview"
+            fontWeight="bold"
+            h="2.5rem"
+            mr={1}
+            size="md"
+            bg="gray.800"
+            color="white"
+            _hover={{ bg: 'black' }}
+          >
+            Workout Now →
+          </Button>
+        </Flex>
+      </Stack>
+    </Container>
+  </Flex>
+)
 
-const HomePage = () => {
-  return (
-    <>
-      <SEO title="Grammarkup - A Web for learning grammar" />
-      <Header />
-      <Box mb={4}>
-        <Box as="section" pt={40} pb={20}>
-          <Container>
-            <Box maxW="760px" mx="auto" textAlign="center">
-              <Heading
-                as="h1"
-                fontSize={{ base: '2.25rem', md: '3rem', lg: '3.75rem' }}
-                letterSpacing="tight"
-                fontWeight="bold"
-                mb={4}
-                lineHeight="1.2"
-              >
-                Learn grammar
-                <Box as="span" color="teal.500">
-                  {' '}
-                  with speed
-                </Box>
-              </Heading>
-
-              <Text opacity={0.7} fontSize={{ base: 'lg', lg: 'xl' }} mt={6}>
-                Grammarkup is a web for learn grammar
-              </Text>
-
-              <Stack mt={10} spacing={4} justify="center" direction={['column', 'row']}>
-                <NextLink href="/grammar/getting-started" passHref>
-                  <Button
-                    as="a"
-                    h={12}
-                    px={8}
-                    fontSize="xl"
-                    size="lg"
-                    colorScheme="teal"
-                    rightIcon={<FaArrowRight fontSize="0.8em" />}
-                  >
-                    Get Started
-                  </Button>
-                </NextLink>
-                <Button
-                  as="a"
-                  size="lg"
-                  h={12}
-                  px={8}
-                  fontSize="xl"
-                  href="https://github.com/miraklasiaf/grammarkup"
-                  target="__blank"
-                  leftIcon={<DiGithubBadge size="1.5em" />}
-                >
-                  GitHub
-                </Button>
+const DataTabs = ({ data }) => (
+  <Tabs isLazy variant="soft-rounded" colorScheme="blue">
+    <TabList>
+      {data.map((tab, index) => (
+        <Tab key={index}>{tab.label}</Tab>
+      ))}
+    </TabList>
+    <TabPanels>
+      {data.map((tab, index) => (
+        <TabPanel p={0} mt={8} key={index}>
+          <Flex
+            key={index}
+            direction="column"
+            justify="flex-start"
+            align="flex-start"
+            maxW="600px"
+          >
+            <Heading
+              letterSpacing="tight"
+              mb={4}
+              as="h2"
+              size="lg"
+              fontWeight="bold"
+              id="workout-overview"
+            >
+              {tab.description}
+            </Heading>
+            {tab.exercises.map((exercise, index) => (
+              <Stack mt={8} spacing={8} key={index}>
+                <VideoCard
+                  title={exercise.title}
+                  length={exercise.length}
+                  src={exercise.src}
+                  href={exercise.href}
+                />
               </Stack>
-            </Box>
-          </Container>
-        </Box>
+            ))}
+          </Flex>
+        </TabPanel>
+      ))}
+    </TabPanels>
+  </Tabs>
+)
 
-        <Divider />
-
-        <Footer />
-      </Box>
-    </>
+export default function Index() {
+  return (
+    <Box as="main">
+      <HeroSection />
+      <Flex justify="center" direction="column">
+        <Stack
+          as="section"
+          spacing={8}
+          justifyContent="center"
+          alignItems="flex-start"
+          m="0 auto 4rem auto"
+          maxWidth="600px"
+          mt={[4, 8, 16]}
+          p={8}
+        >
+          <DataTabs data={workoutData} />
+        </Stack>
+      </Flex>
+    </Box>
   )
 }
-
-export default HomePage

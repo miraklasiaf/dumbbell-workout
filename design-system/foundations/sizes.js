@@ -7,9 +7,7 @@ export const baseSizes = {
   '1.5': '0.375rem',
   '2': '0.5rem',
   '3': '0.75rem',
-  '3.25': '0.8125rem',
   '4': '1rem',
-  '4.5': '1.125rem',
   '5': '1.25rem',
   '6': '1.5rem',
   '8': '2rem',
@@ -17,15 +15,13 @@ export const baseSizes = {
   '12': '3rem',
   '14': '3.5rem',
   '16': '4rem',
-  '18': '4.5rem',
   '20': '5rem',
   '24': '6rem',
   '32': '8rem',
   '40': '10rem',
   '48': '12rem',
   '56': '14rem',
-  '64': '16rem',
-  '72': '18rem'
+  '64': '16rem'
 }
 
 const largeSizes = {
@@ -40,7 +36,6 @@ const largeSizes = {
   '5xl': '64rem',
   '6xl': '72rem',
   '7xl': '80rem',
-  '8xl': '88rem',
   full: '100%',
   screen: '100vh'
 }

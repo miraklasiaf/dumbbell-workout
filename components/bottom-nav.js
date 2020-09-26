@@ -34,7 +34,12 @@ const BottomNav = () => {
       bg={bg}
       display={['flex', 'flex', 'none', 'none']}
     >
-      <BottomNavItem width="33%" href="/docs/getting-started" label="Docs" icon={FiFileText} />
+      <BottomNavItem
+        width="33%"
+        href="/docs/getting-started"
+        label="Docs"
+        icon={FiFileText}
+      />
       <BottomNavItem width="33%" href="/guides" label="Guides" icon={FiBookOpen} />
       <BottomNavItem width="33%" href="/team" label="Team" icon={FiUsers} />
     </Stack>
