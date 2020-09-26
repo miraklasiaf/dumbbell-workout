@@ -55,7 +55,7 @@ const HeroSection = () => (
 )
 
 const DataTabs = ({ data }) => (
-  <Tabs isLazy variant="soft-rounded" colorScheme="blue">
+  <Tabs w="full" isLazy variant="soft-rounded" colorScheme="blue">
     <TabList>
       {data.map((tab, index) => (
         <Tab key={index}>{tab.label}</Tab>
@@ -63,13 +63,13 @@ const DataTabs = ({ data }) => (
     </TabList>
     <TabPanels>
       {data.map((tab, index) => (
-        <TabPanel p={0} mt={8} key={index}>
+        <TabPanel p={4} mt={8} key={index}>
           <Flex
             key={index}
             direction="column"
             justify="flex-start"
             align="flex-start"
-            maxW="600px"
+            w="full"
           >
             <Heading
               letterSpacing="tight"
@@ -109,9 +109,10 @@ export default function Index() {
           justifyContent="center"
           alignItems="flex-start"
           m="0 auto 4rem auto"
-          maxWidth="600px"
+          w="full"
+          maxW="800px"
           mt={[4, 8, 16]}
-          p={8}
+          p={4}
         >
           <DataTabs data={workoutData} />
         </Stack>
