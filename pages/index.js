@@ -24,10 +24,10 @@ const HeroSection = () => (
         justifyContent="center"
         alignItems="flex-start"
         m={['0 auto', null, '0 auto 4rem auto']}
-        maxWidth="3xl"
+        maxWidth="4xl"
         p={8}
       >
-        <Flex direction="column" justify="flex-start" align="flex-start" maxW="3xl">
+        <Flex direction="column" justify="flex-start" align="flex-start" maxW="4xl">
           <Heading letterSpacing="tight" mb={4} as="h1" size="2xl" fontWeight="bold">
             5 Day Dumbbell Workout Split
           </Heading>
@@ -110,7 +110,7 @@ export default function Index() {
           alignItems="flex-start"
           m="0 auto 4rem auto"
           w="full"
-          maxW="800px"
+          maxW="3xl"
           mt={[4, 8, 16]}
           p={4}
         >

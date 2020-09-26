@@ -23,8 +23,8 @@ const siteConfig = {
   seo: {
     title: 'Dumbbell Workout',
     titleTemplate: '%s - Dumbbell Workout',
-    description: 'Web for learning grammar',
-    siteUrl: 'https://chakra-ui.com',
+    description: 'A list of Dumbbell Workout',
+    siteUrl: 'https://dumbbell-workout.vercel.app/',
     twitter: {
       handle: '@miraklasiaf',
       site: '@miraklasiaf',
@@ -33,22 +33,22 @@ const siteConfig = {
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://chakra-ui.com',
+      url: 'https://dumbbell-workout.vercel.app/',
       title: 'Dumbbell Workout',
-      description: 'Web for learning grammar',
-      site_name: 'Dumbbell Workout: Web for learning grammar',
+      description: 'A list of Dumbbell Workout',
+      site_name: 'Dumbbell Workout: A list of Dumbbell Workout',
       images: [
         {
           url: '/og-image.png',
           width: 1240,
           height: 480,
-          alt: 'Dumbbell Workout: Web for learning grammar'
+          alt: 'Dumbbell Workout: A list of Dumbbell Workout'
         },
         {
           url: '/twitter-og-image.png',
           width: 1012,
           height: 506,
-          alt: 'Dumbbell Workout: Web for learning grammar'
+          alt: 'Dumbbell Workout: A list of Dumbbell Workout'
         }
       ]
     }
