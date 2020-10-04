@@ -1,0 +1,21 @@
+{
+  "name": "Dumbbell Workout",
+  "short_name": "Dumbbell Workout",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "description": "Dumbbell Workout - Workout at home",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/static/icon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/static/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
