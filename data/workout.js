@@ -5,39 +5,41 @@ export const workoutData = [
     exercises: [
       {
         title: 'Dumbbell Bench Press',
-        src: '/images/5-day-split/day-1/tes.png',
+        src: '/images/5-day-split/day-1/db-bench-press.png',
         length: '5 sets x 8-10 reps',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/dumbbell-bench-press.html'
       },
       {
         title: 'Incline Dumbbell Bench Press',
-        src: '/images/5-day-split/day-1/tes.png',
+        src: '/images/5-day-split/day-1/incline-db-bench-press.png',
         length: '4 sets x 8-10 reps',
-        href: '#'
+        href:
+          'https://www.muscleandstrength.com/exercises/incline-dumbbell-bench-press.html'
       },
       {
         title: 'Dumbbell Floor Press',
-        src: '/images/5-day-split/day-1/tes.png',
+        src: '/images/5-day-split/day-1/db-floor-press.png',
         length: '3 sets x 8-12 reps',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/dumbbell-floor-press.html'
       },
       {
         title: 'Standing Dumbbell Press',
-        src: '/images/5-day-split/day-1/tes.png',
+        src: '/images/5-day-split/day-1/standing-db-press.png',
         length: '4 sets x 8-10 reps',
         href: '#'
       },
       {
         title: 'Dumbbell Lateral Press',
-        src: '/images/5-day-split/day-1/tes.png',
+        src: '/images/5-day-split/day-1/db-lateral-raise.png',
         length: '3 sets x 8-12 reps',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/dumbbell-lateral-raise.html'
       },
       {
         title: 'Dumbbell Tricep Kickbacks',
-        src: '/images/5-day-split/day-1/tes.png',
+        src: '/images/5-day-split/day-1/db-tricep-kickback.png',
         length: '3 sets x 8-12 reps',
-        href: '#'
+        href:
+          'https://www.muscleandstrength.com/exercises/bent-over-dumbbell-kickback.html'
       }
     ]
   },
@@ -49,7 +51,7 @@ export const workoutData = [
         title: 'Dumbbell Goblet Squat',
         src: '/images/5-day-split/day-2/db-goblet-squat.png',
         length: '4 sets x 8-10 reps',
-        href: 'https://www.youtube.com/watch?v=5Y3KW5rWMh4&feature=emb_title'
+        href: 'https://www.muscleandstrength.com/exercises/dumbbell-goblet-squat'
       },
       {
         title: 'Dumbbell Stiff Leg Deadlift',
@@ -62,7 +64,7 @@ export const workoutData = [
         title: 'Dumbbell Reverse Lunge',
         src: '/images/5-day-split/day-2/db-reverse-lunge.png',
         length: '4 sets x 8-10 reps Each',
-        href: 'https://www.youtube.com/watch?v=Ix9QZ3Pnneo&feature=emb_title'
+        href: 'https://www.muscleandstrength.com/exercises/dumbbell-rear-lunge.html'
       },
       {
         title: 'Dumbbell Frog Squat',
@@ -81,7 +83,7 @@ export const workoutData = [
         title: 'Weighted Crunch',
         src: '/images/5-day-split/day-2/weighted-crunch.png',
         length: '3 sets x 20 reps',
-        href: 'https://www.youtube.com/watch?v=6kHg3JAFNFo&feature=emb_title'
+        href: 'https://www.muscleandstrength.com/exercises/weighted-crunch.html'
       },
       {
         title: 'Side Planks',
