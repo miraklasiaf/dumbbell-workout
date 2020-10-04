@@ -1,4 +1,4 @@
-import { Link, Flex, Stack, Heading, Text, Img } from '@chakra-ui/core'
+import { Link, Flex, Stack, Heading, Text, Image } from '@chakra-ui/core'
 
 const VideoCard = ({ title, length, src, href, children, ...rest }) => (
   <Link
@@ -12,7 +12,7 @@ const VideoCard = ({ title, length, src, href, children, ...rest }) => (
     {...rest}
   >
     <Flex direction={['column', 'column', 'row']}>
-      <Img
+      <Image
         w="250px"
         h="150px"
         mr={8}
