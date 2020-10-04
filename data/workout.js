@@ -99,39 +99,40 @@ export const workoutData = [
     exercises: [
       {
         title: 'Dumbbell Bent Over Row',
-        src: '/images/5-day-split/day-3/tes.png',
+        src: '/images/5-day-split/day-3/db-bent-over-row.png',
         length: '4 sets x 8-12 reps',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/bent-over-dumbbell-row.html'
       },
       {
         title: 'Tripod Dumbbell Row',
-        src: '/images/5-day-split/day-3/tes.png',
+        src: '/images/5-day-split/day-3/tripod-db-row.png',
         length: '4 sets x 8-12 reps Each',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/tripod-dumbbell-row'
       },
       {
         title: 'Dumbbell Pullover',
-        src: '/images/5-day-split/day-3/tes.png',
+        src: '/images/5-day-split/day-3/db-pullover.png',
         length: '4 sets x 8-12 reps',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/dumbbell-pullover.html'
       },
       {
         title: 'Reverse Grip Dumbbell Row',
-        src: '/images/5-day-split/day-3/tes.png',
+        src: '/images/5-day-split/day-3/reverse-grip-db-row.png',
         length: '4 sets x 8-12 reps',
-        href: '#'
+        href:
+          'https://www.muscleandstrength.com/exercises/reverse-grip-bent-over-dumbbell-row.html'
       },
       {
         title: 'Dumbbell Bicep Curl',
-        src: '/images/5-day-split/day-3/tes.png',
+        src: '/images/5-day-split/day-3/db-bicep-curl.png',
         length: '3 sets x 10-15 reps',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/standing-dumbbell-curl.html'
       },
       {
         title: 'Dumbbell Hammer Curl',
-        src: '/images/5-day-split/day-3/tes.png',
+        src: '/images/5-day-split/day-3/db-hammer-curl.png',
         length: '3 sets x 10-15 reps',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/standing-hammer-curl.html'
       }
     ]
   },
@@ -141,45 +142,47 @@ export const workoutData = [
     exercises: [
       {
         title: 'Dumbbell Squat',
-        src: '/images/5-day-split/day-4/tes.png',
+        src: '/images/5-day-split/day-4/db-squat.png',
         length: '4 sets x 8-10 reps',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/dumbbell-squat.html'
       },
       {
         title: 'Dumbbell Deadlift',
-        src: '/images/5-day-split/day-4/tes.png',
+        src: '/images/5-day-split/day-4/db-deadlift.png',
         length: '4 sets x 8-10 reps',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/dumbbell-deadlift.html'
       },
       {
         title: 'Dumbbell Split Squat',
-        src: '/images/5-day-split/day-4/tes.png',
+        src: '/images/5-day-split/day-4/db-split-squat.png',
         length: '3 sets x 8-12 reps each',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/dumbbell-split-squat'
       },
       {
         title: 'Dumbbell Hip Thrust',
-        src: '/images/5-day-split/day-4/tes.png',
+        src: '/images/5-day-split/day-4/db-hip-thrust.png',
         length: '4 sets x 10-15 reps',
-        href: '#'
+        href:
+          'https://www.muscleandstrength.com/exercises/single-leg-hip-thrust-with-dumbbell'
       },
       {
         title: 'Dumbbell Calf Raise',
-        src: '/images/5-day-split/day-4/tes.png',
+        src: '/images/5-day-split/day-4/db-calf-raise.png',
         length: '4 sets x 20 reps',
-        href: '#'
+        href:
+          'https://www.muscleandstrength.com/exercises/seated-dumbbell-calf-raise.html'
       },
       {
         title: 'Dumbbell Side Bends',
-        src: '/images/5-day-split/day-4/tes.png',
+        src: '/images/5-day-split/day-4/db-side-bends.png',
         length: '4 sets x 15 reps each',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/dumbbell-side-bends.html'
       },
       {
         title: 'Plank',
-        src: '/images/5-day-split/day-4/tes.png',
+        src: '/images/5-day-split/day-4/plank.png',
         length: '3 sets x 20 secs',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/hover.html'
       }
     ]
   },
@@ -189,45 +192,48 @@ export const workoutData = [
     exercises: [
       {
         title: 'One Arm Dumbbell Rows',
-        src: '/images/5-day-split/day-5/tes.png',
+        src: '/images/5-day-split/day-5/one-arm-db-rows.png',
         length: '4 sets x 8-10 reps each',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/one-arm-dumbbell-row.html'
       },
       {
         title: 'Dumbbell Arnold Press',
-        src: '/images/5-day-split/day-5/tes.png',
+        src: '/images/5-day-split/day-5/db-arnold-press.png',
         length: '4 sets x 8-10 reps',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/seated-arnold-press.html'
       },
       {
         title: 'Incline Dumbbell Bench Press',
-        src: '/images/5-day-split/day-5/tes.png',
+        src: '/images/5-day-split/day-5/incline-db-bench-press.png',
         length: '4 sets x 8-12 reps',
-        href: '#'
+        href:
+          'https://www.muscleandstrength.com/exercises/incline-dumbbell-bench-press.html'
       },
       {
         title: 'Chest Supported Dumbbell Row',
-        src: '/images/5-day-split/day-5/tes.png',
+        src: '/images/5-day-split/day-5/chest-supported-db-row.png',
         length: '3 sets x 8-12 reps',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/chest-supported-dumbbell-row'
       },
       {
         title: 'Dumbbell Pinwheel curl',
-        src: '/images/5-day-split/day-5/tes.png',
+        src: '/images/5-day-split/day-5/db-pinwheel-curl.png',
         length: '2 sets x 8-12 reps',
-        href: '#'
+        href:
+          'https://www.muscleandstrength.com/exercises/hammer-curl-across-the-body.html'
       },
       {
         title: 'Overhead Dumbbell Tricep Extension',
-        src: '/images/5-day-split/day-5/tes.png',
+        src: '/images/5-day-split/day-5/overhead-db-tricep-extension.png',
         length: '3 sets x 8-12 reps',
-        href: '#'
+        href:
+          'https://www.muscleandstrength.com/exercises/two-arm-standing-dumbbell-extension.html'
       },
       {
         title: 'Dumbbell Shrug',
-        src: '/images/5-day-split/day-5/tes.png',
+        src: '/images/5-day-split/day-5/db-shrug.png',
         length: '3 sets x 12-15 reps',
-        href: '#'
+        href: 'https://www.muscleandstrength.com/exercises/dumbbell-shrugs.html'
       }
     ]
   }
