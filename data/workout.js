@@ -112,7 +112,7 @@ export const workoutData = [
       {
         title: 'Dumbbell Pullover',
         src: '/static/images/5-day-split/day-3/db-pullover.png',
-        length: '4 sets x 8-12 reps',
+        length: '3 sets x 8-12 reps',
         href: 'https://www.muscleandstrength.com/exercises/dumbbell-pullover.html'
       },
       {
