@@ -1,4 +1,5 @@
-import { Link, Flex, Stack, Heading, Text, chakra } from '@chakra-ui/core'
+import Image from 'next/image'
+import { Link, Flex, Stack, Heading, Text, chakra } from '@chakra-ui/react'
 
 const VideoCard = ({ title, length, src, href, children, ...rest }) => (
   <Link
@@ -12,16 +13,15 @@ const VideoCard = ({ title, length, src, href, children, ...rest }) => (
     {...rest}
   >
     <Flex direction={['column', 'column', 'row']}>
-      <chakra.img
-        w="250px"
-        h="150px"
+      <Image
+        alt="Workout"
+        width="250px"
+        height="150px"
         mr={8}
         objectFit="cover"
         src={src}
-        borderRadius={8}
-        boxShadow="0px 20px 40px rgba(0, 0, 0, 0.2)"
       />
-      <Stack>
+      <Stack ml={4}>
         <Heading
           letterSpacing="tight"
           as="h3"

@@ -1,9 +1,9 @@
-import chakraTheme from '@chakra-ui/theme'
+import { theme as defaultTheme } from '@chakra-ui/react'
 import foundations from './foundations'
 import styles from './styles'
 
 const theme = {
-  ...chakraTheme,
+  ...defaultTheme,
   ...foundations,
   styles
 }

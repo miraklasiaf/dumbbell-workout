@@ -1,5 +1,4 @@
-import NextLink from 'next/link'
-import { Flex, Box, Icon } from '@chakra-ui/core'
+import { Box } from '@chakra-ui/react'
 
 const Container = ({ children }) => (
   <>

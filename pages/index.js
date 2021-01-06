@@ -10,7 +10,7 @@ import {
   TabList,
   TabPanels,
   TabPanel
-} from '@chakra-ui/core'
+} from '@chakra-ui/react'
 import Container from '@/components/container'
 import VideoCard from '@/components/video-card'
 import { workoutData } from '@/data/workout'

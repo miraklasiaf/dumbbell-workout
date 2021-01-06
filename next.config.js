@@ -3,15 +3,11 @@ const withOffline = require('next-offline')
 
 const defaultConfig = {
   target: 'serverless',
-  webpack: (config) => {
-    return {
-      ...config,
-      externals: [...config.externals, 'sharp']
-    }
+  images: {
+    domains: ['d33wubrfki0l68.cloudfront.net'] // Kofi
   },
-  experimental: {
-    optimizeFonts: true,
-    optimizeImages: true
+  webpack: (config) => {
+    return config
   },
   workboxOpts: {
     swDest: 'static/service-worker.js',
