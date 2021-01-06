@@ -13,15 +13,8 @@ const VideoCard = ({ title, length, src, href, children, ...rest }) => (
     {...rest}
   >
     <Flex direction={['column', 'column', 'row']}>
-      <Image
-        alt="Workout"
-        width="250px"
-        height="150px"
-        mr={8}
-        objectFit="cover"
-        src={src}
-      />
-      <Stack ml={4}>
+      <Image alt="Workout" width={250} height={150} objectFit="cover" src={src} />
+      <Stack ml={{ base: 0, md: 4 }}>
         <Heading
           letterSpacing="tight"
           as="h3"

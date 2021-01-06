@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { ChakraProvider } from '@chakra-ui/react'
-import theme from '@/design-system'
+import { theme } from '@/design-system'
 import { DefaultSeo } from 'next-seo'
 import SEO from '@/next-seo.config'
 import '@/styles/font.css'
@@ -12,7 +12,7 @@ const App = ({ Component, pageProps }) => {
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
       <DefaultSeo {...SEO} />
-      <ChakraProvider theme={theme} portalZIndex={40}>
+      <ChakraProvider theme={theme}>
         <Component {...pageProps} />
       </ChakraProvider>
     </>
